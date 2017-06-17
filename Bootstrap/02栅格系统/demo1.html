@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>demo02</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<style type="text/css">
+			div{border: 1px #3C763D solid;}
+	@media (max-width: 767px) { div{background: #204D74;} }
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { div{background: #080808; }
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { div{background: #3C763D; }
+@media (min-width: @screen-lg-min) { div{background: #A94442 }
+		</style>
+		
+
+	</head>
+	<body>
+		<div class="container">
+			<!-- row 只能放在 container -->
+			<div class="row"> 
+				<div class="col-md-1"></div>
+				<div class="col-md-1">col-md-2</div>
+				<div class="col-md-1">col-md-3</div>
+				<div class="col-md-1">col-md-4</div>
+				<div class="col-md-1">col-md-5</div>
+				<div class="col-md-1">col-md-6</div>
+				<div class="col-md-1">col-md-1</div>
+				<div class="col-md-1">col-md-2</div>
+				<div class="col-md-1">col-md-3</div>
+				<div class="col-md-1">col-md-4</div>
+				<div class="col-md-1">col-md-5</div>
+				<div class="col-md-1">col-md-6</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8 col-xs-6">md占据8格 xs占据4格</div>
+				<div class="col-md-4 col-xs-6">md4</div>
+			</div>
+		</div>
+	</body>
+</html>
